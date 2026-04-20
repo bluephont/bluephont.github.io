@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6d8cff"/>
+      <stop offset="100%" stop-color="#9d6dff"/>
+    </linearGradient>
+    <linearGradient id="fg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f0e9ff"/>
+    </linearGradient>
+  </defs>
+  <!-- iOS 风格圆角矩形背景 -->
+  <rect x="0" y="0" width="512" height="512" rx="112" ry="112" fill="url(#bg)"/>
+
+  <!-- 拉伸人形剪影：前屈伸展姿势 -->
+  <g fill="url(#fg)">
+    <!-- 头 -->
+    <circle cx="256" cy="150" r="34"/>
+    <!-- 身体（弯曲向下的躯干） -->
+    <path d="M222 178
+             Q210 230 218 270
+             Q226 305 256 318
+             Q286 305 294 270
+             Q302 230 290 178 Z"/>
+    <!-- 前伸的手臂 -->
+    <path d="M238 215
+             Q180 250 150 310
+             Q148 320 158 324
+             Q165 326 170 320
+             Q200 275 248 248 Z"/>
+    <path d="M274 215
+             Q332 250 362 310
+             Q364 320 354 324
+             Q347 326 342 320
+             Q312 275 264 248 Z"/>
+    <!-- 后腿（支撑腿） -->
+    <path d="M246 310
+             L232 410
+             Q230 420 240 422
+             Q250 424 254 416
+             L266 315 Z"/>
+    <!-- 前腿（伸展腿） -->
+    <path d="M266 310
+             L326 390
+             Q332 400 324 408
+             Q316 414 310 406
+             L250 325 Z"/>
+  </g>
+
+  <!-- 下方装饰：地面线 -->
+  <rect x="130" y="430" width="252" height="6" rx="3" fill="#ffffff" opacity="0.35"/>
+</svg>
